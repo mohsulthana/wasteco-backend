@@ -1,0 +1,14 @@
+ERROR - 2022-03-25 04:40:43 --> Error connecting to the database: Connection refused
+CRITICAL - 2022-03-25 04:40:43 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/mohammadsulthan/Projects/Web/wasteco/app/Controllers/Challenge.php(20): CodeIgniter\BaseModel->findAll()
+#5 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Challenge->index()
+#6 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Challenge))
+#7 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/mohammadsulthan/Projects/Web/wasteco/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#10 {main}

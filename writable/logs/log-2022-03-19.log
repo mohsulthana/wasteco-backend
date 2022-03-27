@@ -1,0 +1,308 @@
+ERROR - 2022-03-19 06:57:23 --> Error connecting to the database: No such file or directory
+CRITICAL - 2022-03-19 06:57:23 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/mohammadsulthan/Projects/Web/wasteco/app/Controllers/Api/Challenge.php(13): CodeIgniter\BaseModel->findAll()
+#5 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\API\Challenge->index()
+#6 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Challenge))
+#7 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/mohammadsulthan/Projects/Web/wasteco/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#10 {main}
+ERROR - 2022-03-19 06:57:50 --> Error connecting to the database: No such file or directory
+CRITICAL - 2022-03-19 06:57:50 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/mohammadsulthan/Projects/Web/wasteco/app/Controllers/Api/Challenge.php(13): CodeIgniter\BaseModel->findAll()
+#5 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\API\Challenge->index()
+#6 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Challenge))
+#7 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/mohammadsulthan/Projects/Web/wasteco/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#10 {main}
+ERROR - 2022-03-19 06:58:14 --> Error connecting to the database: No such file or directory
+CRITICAL - 2022-03-19 06:58:14 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/mohammadsulthan/Projects/Web/wasteco/app/Controllers/Api/Challenge.php(13): CodeIgniter\BaseModel->findAll()
+#5 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\API\Challenge->index()
+#6 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Challenge))
+#7 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/mohammadsulthan/Projects/Web/wasteco/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#10 {main}
+ERROR - 2022-03-19 06:58:17 --> Error connecting to the database: No such file or directory
+CRITICAL - 2022-03-19 06:58:17 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/mohammadsulthan/Projects/Web/wasteco/app/Controllers/Api/Challenge.php(13): CodeIgniter\BaseModel->findAll()
+#5 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\API\Challenge->index()
+#6 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Challenge))
+#7 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/mohammadsulthan/Projects/Web/wasteco/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#10 {main}
+ERROR - 2022-03-19 06:58:40 --> Error connecting to the database: No such file or directory
+CRITICAL - 2022-03-19 06:58:40 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/mohammadsulthan/Projects/Web/wasteco/app/Controllers/Api/Challenge.php(13): CodeIgniter\BaseModel->findAll()
+#5 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\API\Challenge->index()
+#6 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Challenge))
+#7 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/mohammadsulthan/Projects/Web/wasteco/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#10 {main}
+ERROR - 2022-03-19 06:58:51 --> Error connecting to the database: php_network_getaddresses: getaddrinfo failed: nodename nor servname provided, or not known
+CRITICAL - 2022-03-19 06:58:51 --> Unable to connect to the database.
+Main connection [MySQLi]: php_network_getaddresses: getaddrinfo failed: nodename nor servname provided, or not known
+#0 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/mohammadsulthan/Projects/Web/wasteco/app/Controllers/Api/Challenge.php(13): CodeIgniter\BaseModel->findAll()
+#5 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\API\Challenge->index()
+#6 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Challenge))
+#7 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/mohammadsulthan/Projects/Web/wasteco/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#10 {main}
+ERROR - 2022-03-19 07:04:54 --> Error connecting to the database: MySQL server has gone away
+CRITICAL - 2022-03-19 07:04:54 --> Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+#0 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/mohammadsulthan/Projects/Web/wasteco/app/Controllers/Api/Challenge.php(13): CodeIgniter\BaseModel->findAll()
+#5 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\API\Challenge->index()
+#6 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Challenge))
+#7 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/mohammadsulthan/Projects/Web/wasteco/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#10 {main}
+ERROR - 2022-03-19 08:56:01 --> Error connecting to the database: Connection refused
+CRITICAL - 2022-03-19 08:56:01 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/mohammadsulthan/Projects/Web/wasteco/app/Controllers/Api/Challenge.php(13): CodeIgniter\BaseModel->findAll()
+#5 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\API\Challenge->index()
+#6 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Challenge))
+#7 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/mohammadsulthan/Projects/Web/wasteco/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#10 {main}
+ERROR - 2022-03-19 08:56:23 --> Error connecting to the database: Connection refused
+CRITICAL - 2022-03-19 08:56:23 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/mohammadsulthan/Projects/Web/wasteco/app/Controllers/Api/Challenge.php(13): CodeIgniter\BaseModel->findAll()
+#5 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\API\Challenge->index()
+#6 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Challenge))
+#7 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/mohammadsulthan/Projects/Web/wasteco/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#10 {main}
+ERROR - 2022-03-19 08:56:33 --> Error connecting to the database: Connection refused
+CRITICAL - 2022-03-19 08:56:33 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/mohammadsulthan/Projects/Web/wasteco/app/Controllers/Api/Challenge.php(13): CodeIgniter\BaseModel->findAll()
+#5 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\API\Challenge->index()
+#6 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Challenge))
+#7 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/mohammadsulthan/Projects/Web/wasteco/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#10 {main}
+ERROR - 2022-03-19 08:56:40 --> Error connecting to the database: Connection refused
+CRITICAL - 2022-03-19 08:56:40 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/mohammadsulthan/Projects/Web/wasteco/app/Controllers/Api/Challenge.php(13): CodeIgniter\BaseModel->findAll()
+#5 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\API\Challenge->index()
+#6 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Challenge))
+#7 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/mohammadsulthan/Projects/Web/wasteco/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#10 {main}
+ERROR - 2022-03-19 08:56:44 --> Error connecting to the database: No such file or directory
+CRITICAL - 2022-03-19 08:56:44 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/mohammadsulthan/Projects/Web/wasteco/app/Controllers/Api/Challenge.php(13): CodeIgniter\BaseModel->findAll()
+#5 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\API\Challenge->index()
+#6 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Challenge))
+#7 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/mohammadsulthan/Projects/Web/wasteco/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#10 {main}
+ERROR - 2022-03-19 08:56:48 --> Error connecting to the database: Connection refused
+CRITICAL - 2022-03-19 08:56:48 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/mohammadsulthan/Projects/Web/wasteco/app/Controllers/Api/Challenge.php(13): CodeIgniter\BaseModel->findAll()
+#5 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\API\Challenge->index()
+#6 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Challenge))
+#7 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/mohammadsulthan/Projects/Web/wasteco/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#10 {main}
+ERROR - 2022-03-19 08:57:05 --> Error connecting to the database: Connection refused
+CRITICAL - 2022-03-19 08:57:05 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/mohammadsulthan/Projects/Web/wasteco/app/Controllers/Api/Challenge.php(13): CodeIgniter\BaseModel->findAll()
+#5 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\API\Challenge->index()
+#6 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Challenge))
+#7 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/mohammadsulthan/Projects/Web/wasteco/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#10 {main}
+ERROR - 2022-03-19 08:58:04 --> Error connecting to the database: Connection refused
+CRITICAL - 2022-03-19 08:58:04 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/mohammadsulthan/Projects/Web/wasteco/app/Controllers/Api/Challenge.php(13): CodeIgniter\BaseModel->findAll()
+#5 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\API\Challenge->index()
+#6 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Challenge))
+#7 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/mohammadsulthan/Projects/Web/wasteco/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#10 {main}
+ERROR - 2022-03-19 08:58:44 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2022-03-19 08:58:44 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/mohammadsulthan/Projects/Web/wasteco/app/Controllers/Api/Challenge.php(13): CodeIgniter\BaseModel->findAll()
+#5 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\API\Challenge->index()
+#6 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Challenge))
+#7 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/mohammadsulthan/Projects/Web/wasteco/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#10 {main}
+CRITICAL - 2022-03-19 09:20:02 --> Undefined variable: pasien
+#0 /Users/mohammadsulthan/Projects/Web/wasteco/app/Views/challenge.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Users/mohammad...', 37, Array)
+#1 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/View/View.php(210): include('/Users/mohammad...')
+#2 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('challenge', Array, true)
+#4 /Users/mohammadsulthan/Projects/Web/wasteco/app/Views/layouts/index.php(5): view('challenge')
+#5 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/View/View.php(210): include('/Users/mohammad...')
+#6 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('layouts/index', Array, true)
+#8 /Users/mohammadsulthan/Projects/Web/wasteco/app/Controllers/BaseController.php(55): view('layouts/index', Array)
+#9 /Users/mohammadsulthan/Projects/Web/wasteco/app/Controllers/Challenge.php(12): App\Controllers\BaseController->template(Array)
+#10 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Challenge->index()
+#11 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Challenge))
+#12 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 /Users/mohammadsulthan/Projects/Web/wasteco/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#14 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#15 {main}
+CRITICAL - 2022-03-19 09:29:40 --> syntax error, unexpected '}'
+#0 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/Users/mohammad...')
+#1 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/mohammadsulthan/Projects/Web/wasteco/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#9 {main}
+CRITICAL - 2022-03-19 09:29:49 --> Call to private App\Controllers\Challenge::__construct() from context 'CodeIgniter\CodeIgniter'
+#0 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#1 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 /Users/mohammadsulthan/Projects/Web/wasteco/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#3 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#4 {main}
+CRITICAL - 2022-03-19 09:29:56 --> Undefined property: App\Controllers\Challenge::$db
+#0 /Users/mohammadsulthan/Projects/Web/wasteco/app/Controllers/Challenge.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/Users/mohammad...', 11, Array)
+#1 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Challenge->__construct()
+#2 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mohammadsulthan/Projects/Web/wasteco/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#6 {main}
+CRITICAL - 2022-03-19 09:30:03 --> Undefined variable: db
+#0 /Users/mohammadsulthan/Projects/Web/wasteco/app/Controllers/Challenge.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/Users/mohammad...', 11, Array)
+#1 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/CodeIgniter.php(809): App\Controllers\Challenge->__construct()
+#2 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/mohammadsulthan/Projects/Web/wasteco/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#6 {main}
+CRITICAL - 2022-03-19 09:34:08 --> Array to string conversion
+#0 /Users/mohammadsulthan/Projects/Web/wasteco/app/Views/challenge.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/Users/mohammad...', 39, Array)
+#1 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/View/View.php(210): include('/Users/mohammad...')
+#2 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('challenge', Array, true)
+#4 /Users/mohammadsulthan/Projects/Web/wasteco/app/Views/layouts/index.php(5): view('challenge')
+#5 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/View/View.php(210): include('/Users/mohammad...')
+#6 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('layouts/index', Array, true)
+#8 /Users/mohammadsulthan/Projects/Web/wasteco/app/Controllers/BaseController.php(55): view('layouts/index', Array)
+#9 /Users/mohammadsulthan/Projects/Web/wasteco/app/Controllers/Challenge.php(22): App\Controllers\BaseController->template(Array)
+#10 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Challenge->index()
+#11 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Challenge))
+#12 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 /Users/mohammadsulthan/Projects/Web/wasteco/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#14 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#15 {main}
+CRITICAL - 2022-03-19 09:36:04 --> Undefined index: type
+#0 /Users/mohammadsulthan/Projects/Web/wasteco/app/Views/challenge.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/Users/mohammad...', 39, Array)
+#1 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/View/View.php(210): include('/Users/mohammad...')
+#2 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('challenge', Array, true)
+#4 /Users/mohammadsulthan/Projects/Web/wasteco/app/Views/layouts/index.php(5): view('challenge')
+#5 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/View/View.php(210): include('/Users/mohammad...')
+#6 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('layouts/index', Array, true)
+#8 /Users/mohammadsulthan/Projects/Web/wasteco/app/Controllers/BaseController.php(55): view('layouts/index', Array)
+#9 /Users/mohammadsulthan/Projects/Web/wasteco/app/Controllers/Challenge.php(22): App\Controllers\BaseController->template(Array)
+#10 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Challenge->index()
+#11 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Challenge))
+#12 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 /Users/mohammadsulthan/Projects/Web/wasteco/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#14 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#15 {main}

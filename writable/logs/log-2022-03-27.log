@@ -1,0 +1,37 @@
+ERROR - 2022-03-27 11:47:43 --> Unknown column 'ongoing_challenge_user.type' in 'where clause'
+CRITICAL - 2022-03-27 11:47:43 --> Unknown column 'ongoing_challenge_user.type' in 'where clause'
+#0 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 /Users/mohammadsulthan/Projects/Web/wasteco/app/Controllers/API/ChallengeBertahap.php(67): CodeIgniter\BaseModel->findAll()
+#7 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\API\ChallengeBertahap->getAllOngoingChallengeBertahap()
+#8 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\ChallengeBertahap))
+#9 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/mohammadsulthan/Projects/Web/wasteco/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#12 {main}
+ERROR - 2022-03-27 11:48:11 --> Unknown column 'ongoing_challenge_user.type' in 'where clause'
+CRITICAL - 2022-03-27 11:48:11 --> Unknown column 'ongoing_challenge_user.type' in 'where clause'
+#0 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 /Users/mohammadsulthan/Projects/Web/wasteco/app/Controllers/API/ChallengeBertahap.php(67): CodeIgniter\BaseModel->findAll()
+#7 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\API\ChallengeBertahap->getAllOngoingChallengeBertahap()
+#8 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\ChallengeBertahap))
+#9 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /Users/mohammadsulthan/Projects/Web/wasteco/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#12 {main}
+CRITICAL - 2022-03-27 12:23:03 --> Call to a member function getName() on null
+#0 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\API\ChallengeHarian->submit()
+#1 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\ChallengeHarian))
+#2 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/mohammadsulthan/Projects/Web/wasteco/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /Users/mohammadsulthan/Projects/Web/wasteco/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Users/mohammad...')
+#5 {main}
