@@ -57,7 +57,7 @@ class Database extends Config
      */
     public $live = [
         'DSN'      => '',
-        'hostname' => 'nidoran.sg.rapidplex.com:8080',
+        'hostname' => '172.105.125.184',
         'username' => 'mohsulth_root',
         'password' => 'Satudua34!',
         'database' => 'mohsulth_wasteco',

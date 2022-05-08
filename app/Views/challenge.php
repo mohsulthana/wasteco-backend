@@ -39,7 +39,7 @@
                                             <td><?= $value['description'] ?></td>
                                             <td><?= $value['description'] ?></td>
                                             <td><?= $value['created_at'] ?></td>
-                                            <td><?= $value['image'] ?></td>
+                                            <td><img src="<?= base_url() . $value['image'] ?>" alt=""></td>
                                             <td><?= $value['isActive'] == 0 ? 'Tidak Aktif' : 'Aktif' ?></td>
                                         </tr>
                                     <?php } ?>

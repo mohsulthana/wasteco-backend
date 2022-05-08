@@ -2,22 +2,22 @@
 
 namespace App\Controllers;
 
-use App\Models\ChallengeModel;
+use App\Models\ChallengeHarianModel;
 
 class Challenge extends BaseController
 {
-    private $challengeModel;
+    private $challengeHarianModel;
 
     function __construct()
     {
-        $this->challengeModel = new ChallengeModel();
+        $this->challengeHarianModel = new ChallengeHarianModel();
     }
 
     public function index()
     {
 		$data['content'] = 'challenge';
 		$data['title']	 = 'Challenges | NCP';
-		$data['challenge'] = $this->challengeModel->findAll();
+		$data['challenge'] = $this->challengeHarianModel->findAll();
 
 		echo $this->template($data);
     }

@@ -4,6 +4,7 @@ use App\Models\ChallengeBertahapModel;
 use CodeIgniter\RESTful\ResourceController;
 use CodeIgniter\API\ResponseTrait;
 use App\Models\OnGoingChallengeModel;
+use App\Models\SubChallengeBertahapModel;
 use CodeIgniter\HTTP\RequestInterface;
 
 class ChallengeBertahap extends ResourceController {
@@ -13,17 +14,24 @@ class ChallengeBertahap extends ResourceController {
     protected $request;
     private $challengeBertahapModel;
     private $onGoingChallengeModel;
+    private $subChallengeBertahapModel;
 
     public function __construct()
     {
         $this->challengeBertahapModel = new ChallengeBertahapModel();
         $this->onGoingChallengeModel = new OnGoingChallengeModel();
+        $this->subChallengeBertahapModel = new SubChallengeBertahapModel();
         $this->request = \Config\Services::request();
     }
 
     public function index()
     {
-        $data = $this->challengeBertahapModel->findAll();
+        $data = $this->challengeBertahapModel->where('isActive', 1)->findAll();
+
+        foreach ($data as $key => $value) {
+            $step = $this->subChallengeBertahapModel->where('challenge_id', $value['id'])->findAll();
+            $data[$key]['steps'] = $step;
+        }
         return $this->respond($data, 200);
     }
 

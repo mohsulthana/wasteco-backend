@@ -40,7 +40,7 @@ $routes->get('api/user', 'API/User::index');
 
 // challenge harian
 $routes->get('api/challenge_harian', 'API/ChallengeHarian::index');
-$routes->get('api/challenge_harian', 'API/ChallengeBertahap::index');
+$routes->get('api/challenge_bertahap', 'API/ChallengeBertahap::index');
 $routes->get('api/challenge_harian/ongoing', 'API/ChallengeHarian::getAllOngoingChallengeHarian');
 $routes->get('api/challenge_bertahap/ongoing', 'API/ChallengeBertahap::getAllOngoingChallengeBertahap');
 $routes->post('api/challenge_harian/join', 'API/ChallengeHarian::join');
