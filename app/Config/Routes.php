@@ -45,7 +45,7 @@ $routes->get('api/challenge_harian/ongoing', 'API/ChallengeHarian::getAllOngoing
 $routes->get('api/challenge_bertahap/ongoing', 'API/ChallengeBertahap::getAllOngoingChallengeBertahap');
 $routes->post('api/challenge_harian/join', 'API/ChallengeHarian::join');
 $routes->post('api/challenge_harian/submit', 'API/ChallengeHarian::submit');
-$routes->post('api/challenge_bertahar   p/join', 'API/ChallengeBertahap::join');
+$routes->post('api/challenge_bertahap/join', 'API/ChallengeBertahap::join');
 
 /*
  * --------------------------------------------------------------------

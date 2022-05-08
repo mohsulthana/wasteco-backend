@@ -51,6 +51,31 @@ class Database extends Config
     ];
 
     /**
+     * The live database connection.
+     *
+     * @var array
+     */
+    public $live = [
+        'DSN'      => '',
+        'hostname' => 'nidoran.sg.rapidplex.com:8080',
+        'username' => 'mohsulth_root',
+        'password' => 'Satudua34!',
+        'database' => 'mohsulth_wasteco',
+        'DBDriver' => 'MySQLi',
+        'DBPrefix' => '',
+        'pConnect' => false,
+        'DBDebug'  => (ENVIRONMENT !== 'production'),
+        'charset'  => 'utf8',
+        'DBCollat' => 'utf8_general_ci',
+        'swapPre'  => '',
+        'encrypt'  => false,
+        'compress' => false,
+        'strictOn' => false,
+        'failover' => [],
+        'port'     => 3306,
+    ];
+
+    /**
      * This database connection is used when
      * running PHPUnit database tests.
      *
@@ -85,6 +110,8 @@ class Database extends Config
         // we don't overwrite live data on accident.
         if (ENVIRONMENT === 'testing') {
             $this->defaultGroup = 'tests';
+        } else if (ENVIRONMENT === 'production') {
+            $this->defaultGroup = 'live';
         }
     }
 }

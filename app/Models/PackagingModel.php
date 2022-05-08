@@ -5,7 +5,7 @@ use CodeIgniter\Model;
 
 class PackagingModel extends Model
 {
-    protected $table = 'packaging';
+    protected $table = 'packaging_material';
     protected $primaryKey = 'id';
     protected $allowedFields = ['id', 'packaging_name'];
 }
